@@ -1,0 +1,8 @@
+903817c7ba7aae6eda1e292988f5d45e23ad5772aab0a13e83760f739879820d  /usr/local/bin/kube-controller-manager
+00ff76ca32462a711e1494c1ce3474a8a2b1182bbdfb5d0d614e1d066485917d  /usr/local/bin/kube-proxy
+6b3fb8fc59c823a12333beff1991b7eb9c926dec73da75e492fdaad2a4e0dbcc  /usr/local/bin/kube-apiserver
+b3e9b0db6c0d4128f0ed96e4ac1a14dd53105ea33709584d724749281dea16ca  /usr/local/bin/kubelet
+d7589d27b743f1732c04b8954f57222900f30949561b1c6b4b1368c65a12fe15  /usr/local/bin/kube-scheduler
+debd902acde6fdf67d3b7a717764b35a9265e1e6944c146ebd0bf6052f97bae6  /usr/local/bin/kubernetes
+7d42467d47adac266a31dfca8d7f1a4ffca8128e67dc1bce10e7a0f7a3a5e328  /usr/local/bin/kubectl
+e1fa3542ad45fbc2f7e404e67346969e6945dfdd3baa126f0dafdff19bbdedde  /usr/local/bin/hyperkube
