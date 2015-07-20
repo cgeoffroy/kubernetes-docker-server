@@ -1,6 +1,6 @@
 # kubernetes-docker-server
 
-This repository contains a Dockerfile for building a minimal (*~ 272.2 MB*) Kubernetes Docker image containing the `server side` components.
+This repository contains a Dockerfile for building a minimal (*~ 272.2 MB*) Kubernetes Docker image containing the various components.
 
 This images is based on [Alpine Linux](https://registry.hub.docker.com/_/alpine/).
 
