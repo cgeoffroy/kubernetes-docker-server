@@ -1,9 +1,9 @@
 FROM alpine:latest
 
-ENV KUBERNETES_VERSION='v0.21.4'
+ENV KUBERNETES_VERSION='v1.0.1'
 
 RUN apk update && \
-    apk add openssl && \
+    apk add openssl iptables && \
     wget -c -O glibc-2.21-r2.apk "https://circle-artifacts.com/gh/andyshinn/alpine-pkg-glibc/6/artifacts/0/home/ubuntu/alpine-pkg-glibc/packages/x86_64/glibc-2.21-r2.apk" && \
     echo '9ee756072edafedb65bfe6835566c98ee58dee8ea073820df112c104b0de116e  glibc-2.21-r2.apk' | sha256sum -c '-' && \
     apk add --allow-untrusted glibc-2.21-r2.apk && \
