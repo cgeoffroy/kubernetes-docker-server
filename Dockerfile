@@ -16,7 +16,7 @@ RUN apk update && \
 ADD add/checksums.sha256 kubernetes/
 
 RUN wget -c -O '-' 2>/dev/stderr https://github.com/GoogleCloudPlatform/kubernetes/releases/download/${KUBERNETES_VERSION}/kubernetes.tar.gz | tar -xzf '-' kubernetes/server/kubernetes-server-linux-amd64.tar.gz && \
-    echo '919175477c2c5453ee6743fc69e6f6072aa01a4a4582c9cb181427e779de55cd  kubernetes/server/kubernetes-server-linux-amd64.tar.gz' | sha256sum -c '-' && \
+    echo '478c730e44406142cac363716cda007e95f3a338a2d5530447efc7f79140f1bd  kubernetes/server/kubernetes-server-linux-amd64.tar.gz' | sha256sum -c '-' && \
     tar -xzf kubernetes/server/kubernetes-server-linux-amd64.tar.gz && \
     cd kubernetes/server/bin && \
     mv kube-controller-manager kube-proxy kube-apiserver kubelet kube-scheduler kubernetes kubectl hyperkube /usr/local/bin && \
